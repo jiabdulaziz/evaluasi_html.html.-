@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluasi HTML Dasar</title>
+</head>
+<body>
+    <h1>Selamat Datang di Evaluasi HTML</h1>
+    <p>Ini adalah struktur dasar HTML</p>
+
+    <!--Bagian 2 : Pengelolaan Teks-->
+    <h2>Pengelolaan Teks</h2>
+    <p>
+        Dalam pengembangan web, sangat penting untuk <strong>memahami dasar-dasar HTML</strong> karena ini adalah fondasi dari setiap halaman web. Selain itu, pengembang juga harus <em>memahami penggunaan CSS</em> untuk styling dan <strong><em>JavaScript</em></strong> untuk menambahkan interaktivitas pada halaman web.
+    </p>
+    <hr>
+    <blockquote>
+        "The only way to do great work is to love what you do."
+        <br>— Steve Jobs
+    </blockquote>
+
+    <!--Bagian 3 : Hyperlink dan Gambar-->
+    <h2>Hyperlink dan Gambar</h2>
+    <p>
+        Saya sering mengunjungi <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a> karena menyediakan informasi yang sangat luas dan dapat dipercaya mengenai berbagai topik. Situs ini sangat berguna untuk riset dan pembelajaran sehari-hari.
+    </p>
+    
+    <img src="image/html-css.jpg" alt="Ini adalah logo HTML dan CSS">
+
+    <!--Bagian 4 : Membuat daftar-->
+    <h2>Membuat Daftar</h2>
+    <ol>
+        <li>Menyelesaikan proyek pengembangan web dengan sukses.</li>
+        <li>Meningkatkan kemampuan pemrograman dan mempelajari framework baru.</li>
+        <li>Memulai usaha sampingan berbasis teknologi yang inovatif.</li>
+    </ol>
+    <ul>
+        <li>Membaca buku tentang teknologi dan sains.</li>
+        <li>Bermain game strategi.</li>
+        <li>Menjelajahi tempat-tempat alam terbuka.</li>
+    </ul>
+    
+    <!--Bagian 5 : Membuat Tabel-->
+    <h2>Tabel Data</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Umur</th>
+                <th>Kota</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Andi</td>
+                <td>25</td>
+                <td>Jakarta</td>
+            </tr>
+            <tr>
+                <td>Budi</td>
+                <td>30</td>
+                <td>Bandung</td>
+            </tr>
+            <tr>
+                <td>Citra</td>
+                <td>27</td>
+                <td>Surabaya</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <!--Bagian 6 : Membuat Formulir-->
+    <h2>Formulir Pendaftaran</h2>
+    <form action="/submit-form" method="post">
+        <!-- Input teks untuk nama lengkap -->
+        <label for="name">Nama Lengkap:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+    
+        <!-- Input email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+    
+        <!-- Radio button untuk memilih jenis kelamin -->
+        <label>Jenis Kelamin:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Laki-laki</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Perempuan</label><br><br>
+    
+        <!-- Dropdown untuk memilih kota tempat tinggal -->
+        <label for="city">Kota Tempat Tinggal:</label><br>
+        <select id="city" name="city">
+            <option value="jakarta">Jakarta</option>
+            <option value="bandung">Bandung</option>
+            <option value="surabaya">Surabaya</option>
+            <option value="yogyakarta">Yogyakarta</option>
+        </select><br><br>
+    
+        <!-- Checkbox untuk menyetujui syarat dan ketentuan -->
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">Saya menyetujui syarat dan ketentuan</label><br><br>
+    
+        <!-- Textarea untuk menulis pesan atau komentar -->
+        <label for="message">Pesan atau Komentar:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+    
+        <!-- Tombol submit untuk mengirimkan data formulir -->
+        <button type="submit">Kirim</button>
+    </form>
+    
+</body>
+</html>
