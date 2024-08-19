@@ -1,0 +1,36 @@
+/* External CSS */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Selektor Elemen */
+p {
+    color: red;
+}
+
+/* Selektor Kelas */
+.container {
+    background-color: yellow;
+    padding: 10px;
+}
+
+/* Selektor ID */
+#highlight {
+    color: orange;
+    font-size: 20px;
+}
+
+/* Selektor Atribut */
+a:hover {
+    color: blue;
+}
+
+/* Box Model */
+#boxModel {
+    width: 300px;      /* Lebar konten */
+    height: 150px;     /* Tinggi konten */
+    padding: 20px;     /* Padding di semua sisi */
+    border: 5px solid black;  /* Border di sekeliling div */
+    margin: 15px;      /* Margin di semua sisi */
+    background-color: #e0e0e0; /* Warna latar belakang untuk lebih jelas */
+}
